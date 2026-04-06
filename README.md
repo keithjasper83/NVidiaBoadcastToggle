@@ -11,7 +11,7 @@ Run NVIDIA Broadcast **only when needed** — reduce constant GPU usage, add rel
 ## Quick Start (One-Liner Install)
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/<your-username>/<repo-name>/main/install-broadcast-tools.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/keithjasper83/NVidiaBoadcastToggle/main/install-broadcast-tools.ps1 | iex
 ```
 
 This will:
