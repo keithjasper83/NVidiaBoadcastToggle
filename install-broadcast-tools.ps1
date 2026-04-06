@@ -1,13 +1,13 @@
 [CmdletBinding()]
 param(
     [string]$InstallDir = $(if ($env:OneDrive -and (Test-Path $env:OneDrive)) {
-        Join-Path $env:OneDrive "Documents\BroadcastTools"
+        Join-Path $env:OneDrive "StreamDeck\Scripts\NVidia Broadcast"
     } else {
-        Join-Path $env:USERPROFILE "Documents\BroadcastTools"
+        Join-Path $env:USERPROFILE "StreamDeck\Scripts\NVidia Broadcast"
     }),
 
     [string]$BroadcastExePath = "C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe",
-    [string]$GitHubRawBase = "",
+    [string]$GitHubRawBase = "https://github.com/keithjasper83/NVidiaBoadcastToggle/",
     [string]$TaskName = "Close NVIDIA Broadcast On Lock"
 )
 
