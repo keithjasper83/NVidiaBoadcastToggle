@@ -7,7 +7,7 @@ param(
     }),
 
     [string]$BroadcastExePath = "C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NVIDIA Broadcast.exe",
-    [string]$GitHubRawBase = "https://github.com/keithjasper83/NVidiaBoadcastToggle/",
+    [string]$GitHubRawBase = "https://raw.githubusercontent.com/keithjasper83/NVidiaBoadcastToggle/main/",
     [string]$TaskName = "Close NVIDIA Broadcast On Lock"
 )
 
